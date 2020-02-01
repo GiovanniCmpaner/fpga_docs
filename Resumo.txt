@@ -1,0 +1,39 @@
+﻿Odin
+
+* O que é
+Ferramenta de síntese para FPGA
+
+* Para que serve
+Apartir de código verilog gerar um arquivo para programação da FPGA
+
+* Por que foi feito
+Para pesquisas e estudos na área de síntese pra FPGA
+
+* Quem fez
+Professor da universidade com a equipe
+
+* Como foi feito
+Utilizando código C
+
+* Como foi construído
+Através de módulos que são separados por etapas:
+- Entrada de arquivo verilog
+- Interpretador de texto
+- Construtor das lógicas combinacionais
+- Simplificador e otimização
+- Mapeamento das lógicas para blocos de funções na FPGA
+- Geração de arquivo de saída
+
+* Diferenciais de desempenho
+Comparado com o Quartus, o Odin gera saídas que em média ocupam 1.1 vezes mais blocos e são 1.05 vezes mais rápidos
+Desempenho consideravelmente bom comparado com a ferramenta profissional
+
+* Diferenciais de funcionamento
+O Odin é leve e foi feito para ser integrado com diversos softwares, de forma mais genérica
+Comparado com o Quartus, não possui ambiente de desenvolvimento nem vários plugins e ferramentas
+
+* Diferenciais de funcionalidade
+Comparado com o Quartus que é pago, está disponível de graça
+
+* Como está hoje - Odin 1 vs Odin 2
+O Odin 2 é feito em C++, de forma muito mais modular e flexível, afim de possibilitar e facilitar o uso por pesquisadores e desenvolvedores
